@@ -1,5 +1,6 @@
 # Abouts
-  This is a simple web app which send it's user the details of COVID-19 affected people in india through text messages.
+  This is a simple web app which send it's user the detail about number of COVID-19 affected people in india through 
+   text messages.
    It fetches the data from [here](https://www.worldometers.info/coronavirus/country/india/)
 
 
