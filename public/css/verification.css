@@ -1,0 +1,29 @@
+body {
+     height: 100%;
+     max-height:1000px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.container
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+h4{
+    font-size: large;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(58, 56, 56);
+}
+input
+{
+    height: 30px;
+
+}
+input[type="submit"]
+{
+    margin-left:45px;
+}
