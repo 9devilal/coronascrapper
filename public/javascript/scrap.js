@@ -7,8 +7,8 @@ const mysql =require('mysql');
 
 var connection=mysql.createConnection({
     host:"localhost",
-    user:"root",
-    password:"acmicpc21",
+    user:"xxxxxx",
+    password:"xxxxxx",
     database:"userdata"
 }); 
 
@@ -16,8 +16,8 @@ var connection=mysql.createConnection({
 /*configuring your nexmo account */
 const Nexmo=require('nexmo');
 const nexmo = new Nexmo({
-    apiKey: '125d3a29',
-    apiSecret:'qGpdf9H85q3wVnm3',
+    apiKey: 'xxxxxxxx',
+    apiSecret:'xxxxxxxxx',
 },{debug:true});
 
 
