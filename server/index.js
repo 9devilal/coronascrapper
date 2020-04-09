@@ -12,8 +12,8 @@ const corona=require('../public/javascript/scrap.js')
 
 const Nexmo=require('nexmo');
 const nexmo = new Nexmo({
-    apiKey: '125d3a29',
-    apiSecret:'qGpdf9H85q3wVnm3',
+    apiKey: 'xxxxx',
+    apiSecret:'xxxxxxxxxx',
 },{debug:true});
 
 
@@ -23,9 +23,9 @@ const nexmo = new Nexmo({
 
 var connection=mysql.createConnection({
     host:"localhost",
-    user:"root",
-    password:"acmicpc21",
-    database:"userdata"
+    user:"xxxxx",
+    password:"xxxxxx",
+    database:"xxxxxxx"
 });
 
 connection.connect((err)=>{
